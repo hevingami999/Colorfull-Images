@@ -1,0 +1,179 @@
+@import url('https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&display=swap');
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: 'Lora', serif; 
+}
+.container{
+	width: 1140px;
+	margin: auto;
+}
+.row{
+	display: flex;
+	flex-wrap: wrap;
+}
+.col-4{
+	width: 33.33333%;
+	padding: 15px;
+}
+.w-100{
+	width: 100%;
+	background-color:#9BB59D;
+	overflow: hidden;
+	 
+}
+img{
+	width: 100%;
+	display: block;
+	transition: all 0.5s;
+	transform: scale(1);
+}
+.card-box:hover img{
+	transform: scale(1.1);
+ 	transition: all 0.5s;
+
+}
+.content-box{
+	padding: 20px 10px;
+}
+.content-box button{
+	background-color: #34495E;
+	color: white;
+	margin: 10px;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 5px;
+	transform: translateX(0px);
+ 	transition: all 0.5s; 
+}
+.content-box:hover button{
+	transform: translateX(30px);
+
+}
+.w-101{
+	width: 100%;
+	background-color:#A93226;
+	overflow: hidden;
+	 
+}
+.col-3{
+	width:33.33333%;
+	padding: 25px;
+}
+.card-box1 img{
+	width: 100%;
+	display: block;
+	transition: all 0.5s;
+	transform: scale(1.1);
+}
+.card-box1:hover img{
+	transform: scale(1);
+ 	transition: all 0.5s;
+
+}
+.content-box1{
+	padding: 20px 10px;
+}
+.content-box1 button{
+	background-color:#DC7633;
+	color: white;
+	margin: 10px;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 5px;
+	transform: translate(10px);
+ 	transition: all 0.5s; 
+}
+.content-box1:hover button{
+	transform: translate(-10px);  
+
+}
+
+
+.w-102{
+	width: 100%;
+	background-color:#D5D8DC;
+	overflow: hidden;
+	 
+}
+.col-5{
+	width:33.33333%;
+	padding: 25px;
+}
+.card-box6 img{
+	width: 100%;
+	display: block;
+	transition: all 0.5s;
+	transform: scale(1.1);
+	filter: grayscale(100%);
+}
+.card-box6:hover img{
+	transform: scale(1);
+ 	transition: all 0.5s;
+ 	filter: grayscale(0);
+
+}
+.content-box6{
+	padding: 20px 10px;
+}
+.content-box6 button{
+	background-color:#154360;
+	color: white;
+	margin: 10px;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 5px;
+	transform: scale(0.5);
+ 	transition: all 0.5s; 
+}
+.content-box6:hover button{
+	transform:scale(1.3);  
+
+}
+
+
+.w-104{
+	width: 100%;
+	background-color:#AED6F1;
+	overflow: hidden;
+	 
+}
+.col-6{
+	width:33.33333%;
+	padding: 25px;
+}
+.card-box7 img{
+	width: 100%;
+	display: block;
+	transition: all 0.5s;
+	transform: scale(1.1);
+	filter: grayscale(0);
+}
+.card-box7:hover img{
+	transform: scale(1) rotate(360deg);
+ 	transition: all 1.1s;
+ 	filter: grayscale(100%);
+
+}
+.content-box7{
+	padding: 20px 10px;
+}
+.content-box7 button{
+	background-color:lightyellow;
+	color: black;
+	margin: 10px;
+	padding: 10px 10px;
+	border: none;
+	border-radius: 5px;
+	 transform: scale(0);
+ 	transition: all 0.7s; 
+}
+.content-box7:hover button{
+	transform:scale(1.1);  
+
+}
+
